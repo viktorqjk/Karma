@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Hind Vadodara', sans-serif;
+    background-image: linear-gradient(-83deg, #000 50%, #fff calc(50% + 2px)) ;
+}
+main {
+    display: flex;
+    align-items: center; 
+}
+.display-picture{
+    position: absolute;
+    width: 50vw;
+    right: 40%;
+    height: 75vh;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-image: url(/Karma-JuicyBurst-Front.webp);
+}
+.main-container {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 50vw;
+    font-size: 24px;
+    margin-left: 45vw;
+}
+.container-info {
+    padding-bottom: 1rem;
+}
+select {
+    width: 25rem;
+    height: 3rem;
+    font-size: 25px;
+}
+.prices {
+   padding: 0 10px;
+}
+.quantity {
+    display: flex;
+    font-size: 25px;
+    color: black;
+    padding: 1rem 0;
+}
+.quantity a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.5rem;
+    background-color: #fff;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    width: 16.4rem;
+    background-color:#fff;
+    margin-left: 1rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+li {
+    list-style: none;
+}
+.icon-list {
+    display: flex;
+    margin-right: 5rem;
+    gap: 10px;
+    padding: 0.2rem; 
+}
+p {
+    font-size: 15px;
+    color: white;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 40px;
+}
+.container {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: rgb(43, 40, 40);
+    height: 5.5rem;
+    padding: 0 75px;
+    right: 0.4%;
+    top: 90%;
+    clip-path: polygon(1% 0%, 100% 0%, 100% 100%, 0% 100%);
+    padding-bottom: 1rem;
+} 
+.scale {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    height: .6rem;
+    min-width: 12rem;
+    color: white; 
+}
+.energy {
+    background: linear-gradient(90deg, #df7296 60%, #ddd 60%);
+}
+.focus {
+    background:#df7296 ;
+}
+.pump {
+    background: linear-gradient(90deg, #df7296 80%, #ddd 60%);
+}
+.anxiety {
+    background: linear-gradient(90deg, #df7296 80%, #ddd 60%);
+}
+h1 {
+    margin-right: 14rem;
+    font-size: 55px;
+    line-height: 2.5rem;
+}
+h2 {
+    position: absolute;
+    top: 24.2%;
+    right: 20%;
+    color: #df7296;
+    font-size: 60px;
+}
+h3{
+   padding-bottom: 0.5rem;
+}
+h4{
+    font-size: 20px;
+}
+h6{
+    font-size: 1.1em;
+}
