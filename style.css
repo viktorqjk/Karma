@@ -31,8 +31,12 @@ main {
     width: 50vw;
     font-size: 24px;
     margin-left: 45vw;
+    padding-top: 8rem;
 }
-.container-info {
+.price-placement {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
     padding-bottom: 1rem;
 }
 select {
@@ -90,16 +94,14 @@ p {
 }
 .container {
     display: flex;
-    position: absolute;
     align-items: center;
-    justify-content: center;
     gap: 2rem;
     background-color: rgb(43, 40, 40);
     height: 5.5rem;
-    padding: 0 75px;
-    right: 0.4%;
-    top: 90%;
-    clip-path: polygon(1% 0%, 100% 0%, 100% 100%, 0% 100%);
+    margin-top: 13rem;
+    margin-left: 2.5em;
+    padding: 0 2.5rem;
+    clip-path: polygon(1.1% 0%, 100% 0%, 100% 100%, 0% 100%);
     padding-bottom: 1rem;
 } 
 .scale {
@@ -107,7 +109,7 @@ p {
     align-items: center;
     justify-content: center;  
     height: .6rem;
-    min-width: 12rem;
+    width: 12rem;
     color: white; 
 }
 .energy {
@@ -123,19 +125,16 @@ p {
     background: linear-gradient(90deg, #df7296 80%, #ddd 60%);
 }
 h1 {
-    margin-right: 14rem;
     font-size: 55px;
     line-height: 2.5rem;
 }
 h2 {
-    position: absolute;
-    top: 24.2%;
-    right: 20%;
     color: #df7296;
     font-size: 60px;
+    line-height: 2.5rem;
 }
 h3{
-   padding-bottom: 0.5rem;
+   line-height: 3rem;
 }
 h4{
     font-size: 20px;
